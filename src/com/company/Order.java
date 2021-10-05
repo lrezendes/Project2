@@ -5,8 +5,8 @@ public class Order {
     private Customer orderedBy;
 
     public String getDestination() {
-        return destination;
-
+        return destination.toString();
+    }
     public String getOrderer(){
         return orderedBy.getName();
         }
@@ -17,4 +17,4 @@ public class Order {
         }
 
     }
-}
+

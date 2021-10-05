@@ -6,8 +6,10 @@ public class ShippingAddress {
     private String City;
     private String State;
     private String postalCode;
-    }
-    Public String toString();
-    
+
+    public String toString() {
+        return AddressLine1+AddressLine2;
+}
+
 
 }
